@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список фильмов</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Мой список фильмов</h1>
+        <form id="movie-form">
+            <input type="text" id="movie-input" placeholder="Добавьте название фильма" required>
+            <button type="submit">Добавить фильм</button>
+        </form>
+
+        <h2>Непросмотренные фильмы</h2>
+        <button id="shuffle-button">Изменить порядок</button>
+        <ul id="movie-list"></ul>
+
+        <h2>Просмотренные фильмы</h2>
+        <ul id="watched-movie-list"></ul>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
